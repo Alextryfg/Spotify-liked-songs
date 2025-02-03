@@ -3,8 +3,8 @@ from spotipy.oauth2 import SpotifyOAuth
 import time  # Para hacer pausas entre las solicitudes
 
 # Configuración de la API de Spotify
-SPOTIPY_CLIENT_ID = '4b7dec55504948eab9516fa700e6206e'  # Tu Client ID
-SPOTIPY_CLIENT_SECRET = 'dc245fdfa16b408ba25955340cb0725a'  # Tu Client Secret
+SPOTIPY_CLIENT_ID = 'xxxxxxxxxxxxxxxxx'  # Tu Client ID
+SPOTIPY_CLIENT_SECRET = 'xxxxxxxxxxxxxxxxx'  # Tu Client Secret
 SPOTIPY_REDIRECT_URI = 'http://localhost:8888/callback'  # URI de redirección
 
 # Autenticación con permisos necesarios
@@ -16,7 +16,7 @@ sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
 ))
 
 # ID de la playlist
-playlist_id = '61eR49NjUT3ZC127P0uvDw'
+playlist_id = 'xxxxxxxxxxxxxxxxx'
 
 # Función para obtener todas las canciones de una playlist
 def obtener_canciones_playlist(playlist_id):
